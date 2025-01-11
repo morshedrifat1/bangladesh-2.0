@@ -59,7 +59,7 @@ text-decoration: none;
 }
 
 .hero-content .hero-text{
-    width: 622px;
+    width: 632px;
     padding-left: 80px;
 }
 .hero-content .hero-text h4{
@@ -219,7 +219,7 @@ padding-top: 24px;
 
 /* testimonial start */
 .tes-comment{
-    background:url("../img/quote-bg.png");
+    background:url("../img/quote-bg.png"),;
     background-repeat: no-repeat;
     background-position: 25px 24px;
     background-size: 64px 64px;
