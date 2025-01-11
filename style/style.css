@@ -37,7 +37,9 @@ border-radius: 8px;
 
 
 }
-
+.header-content div button:hover{
+    scale: 1.03;
+}
 .header-content div button a{
 font-weight: 600;
 font-size: 18px;
@@ -208,18 +210,25 @@ padding-top: 24px;
     margin-top: 24px;
     cursor: pointer;
 }
+.card-box-2nd .card-item button:hover{
+    scale: 1.03;
+}
 
 .card-box-2nd .card-item:nth-child(2) button{
     background:#09A15C;
 }
-
+.card-box-2nd .card-item:nth-child(2) button:hover{
+    scale: 1.03;
+}
 .card-box-2nd .card-item:nth-child(3) button{
     background:#FFC239;
 }
-
+.card-box-2nd .card-item:nth-child(3) button:hover{
+    scale: 1.03;
+}
 /* testimonial start */
 .tes-comment{
-    background:url("../img/quote-bg.png"),;
+    background:url("../img/quote-bg.png"),#FFFFFF;
     background-repeat: no-repeat;
     background-position: 25px 24px;
     background-size: 64px 64px;
@@ -322,8 +331,11 @@ border-radius: 4px;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-
 }
+.qn-btn button:hover{
+    scale: 1.03;
+}
+
 .qn-btn img{
     width: 12px;
     height: 6px;
@@ -417,7 +429,9 @@ line-height: 22px;
 color: #FFFFFF;
 margin-top: 30px;
 }
-
+.news-box-content button:hover{
+    scale: 1.03;
+}
 /* news section close */
 
 
@@ -459,9 +473,12 @@ padding: 40px;
 background: #FFFFFF;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
-
 height: 128px;
 }
+
+.donate-box .donate-item:hover{
+    background: #C6E4D6;
+    }
 .donate-box .donate-item:nth-child(2){
 padding: 40px;
 
@@ -511,7 +528,9 @@ font-size: 18px;
 line-height: 22px;
 color: #FFFFFF;
 }
-
+.donate-form form input:hover{
+    scale: 1.03;
+}
 /* donate section close */
 
 /* newslatter section open */
